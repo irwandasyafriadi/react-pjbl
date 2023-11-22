@@ -15,12 +15,11 @@ const Pertanyaan = () => {
             <div className="space-y-5">
             <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
-                    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                    <AccordionTrigger>Pengelola</AccordionTrigger>
                     <AccordionContent>
-                              Yes. It adheres to the WAI-ARIA design pattern.
-                              <div>
+                              Rumahnya dimana?                              {/* <div>
                                 <img src="/reviews/avatar-1.png" alt="" srcset="" />
-                              </div>
+                              </div> */}
                     </AccordionContent>
                  </AccordionItem>
                  <AccordionItem value="item-2">
