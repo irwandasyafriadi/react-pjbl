@@ -17,23 +17,23 @@ const Contact = () => {
         <div className="">
             <h1 className="section-title">Logbook </h1>
         </div>
-        <Table className='max-w-sm xl:max-w-full overflow-hidden'>
+        <Table className='max-w-sm xl:max-w-full overflow-hidden  font-medium'>
             {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
                <TableHeader className='  '>
                     <TableRow className=''>
-                        <TableHead className="">Aktivitas</TableHead>
-                        <TableHead className=''>Tanggal / Bulan</TableHead>
+                        <TableHead className="text-center">Aktivitas</TableHead>
+                        <TableHead className='text-center'>Tanggal / Bulan</TableHead>
                         <TableHead className="text-center">Bukti</TableHead>
                     </TableRow>
                 </TableHeader>
                 <TableBody className='justify-between'>
                     <TableRow >
                         <TableCell className="font-medium">Menentukan tema/judul proposal pjbl dan menyelesaikan pendahuluan</TableCell>
-                        <TableCell className='text-center'>12 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>12 September 2023</TableCell>
+                        <TableCell className="">
                             <Popover>
                                 <PopoverTrigger>
-                            <img src="/logbook/1.png" alt="" srcset="" className="rounded-sm"/>
+                            <img src="/logbook/1.png" alt="" srcset="" className="text-center items-center rounded-sm"/>
                                 </PopoverTrigger>
                                 <PopoverContent>
                             <img src="/logbook/1.png" alt="" srcset="" className="rounded-sm relative mb-5 h-64 w-70"/>
@@ -44,8 +44,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Pembagian masing-masing tugas dalam beberapa kelompok dan menentukan topik</TableCell>
-                        <TableCell className='text-center'>20 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>20 September 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/2.png" alt="" srcset="" className="rounded-sm"/>
@@ -59,8 +59,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Diskusi pembuatan judul </TableCell>
-                        <TableCell className='text-center'>24 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>24 September 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/3.jpg" alt="" srcset="" className="rounded-sm"/>
@@ -74,8 +74,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Meminta persetujuan diskusi judul dengan Ibu Yuli</TableCell>
-                        <TableCell className='text-center'>25 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>25 September 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/4.png" alt="" srcset="" className="rounded-sm"/>
@@ -89,8 +89,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Mendiskusikan perihal PjBL dengan Bapak Ryan Hidayatullah</TableCell>
-                        <TableCell className='text-center'>25 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>25 September 2023</TableCell>
+                        <TableCell className="">
                             <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/5.png" alt="" srcset=" " className="rounded-sm" />
@@ -104,8 +104,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Membuat planning pengamatan ke lokasi TMII</TableCell>
-                        <TableCell className='text-center'>25 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>25 September 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/5.jpg" alt="" srcset="" className="relative rounded-sm" />
@@ -119,8 +119,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Membuat PPT untuk diserahkan kepada dosen mata kuliah Bahasa Indonesia dan di presentasikan</TableCell>
-                        <TableCell className='text-center'>26 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>26 September 2023</TableCell>
+                        <TableCell className="">
                              <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/7.png" alt="" srcset="" className="rounded-sm" />
@@ -134,8 +134,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Melanjutkan pembuatan proposal </TableCell>
-                        <TableCell className='text-center'>29 September 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>29 September 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/8.png" alt="" srcset="" className="rounded-sm" />
@@ -149,8 +149,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Pelaksanaan penelitian di Taman Mini Indonesia Indah</TableCell>
-                        <TableCell className='text-center'>16 Oktober 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>16 Oktober 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/9.png" alt="" srcset="" className="rounded-sm" />
@@ -164,8 +164,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Pelaksanaan penelitian di Taman Mini Indonesia Indah</TableCell>
-                        <TableCell className='text-center'>18 Oktober 2023</TableCell>
-                        <TableCell className="text-right w-[300px] ">
+                        <TableCell className=''>18 Oktober 2023</TableCell>
+                        <TableCell className=" w-[300px] ">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/dok-tmii.jpg" className="rounded-sm" />
@@ -179,8 +179,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Presentasi Hasil Penelitian Project Taman Mini Indonesia Indah</TableCell>
-                        <TableCell className='text-center'>23 Oktober 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>23 Oktober 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/11.png" alt="" srcset="" className="rounded-sm" />
@@ -194,8 +194,8 @@ const Contact = () => {
 
                     <TableRow >
                         <TableCell className="font-medium">Bimbingan Revisi Laporan dan Artikel</TableCell>
-                        <TableCell className='text-center'>6 November 2023</TableCell>
-                        <TableCell className="text-right">
+                        <TableCell className=''>6 November 2023</TableCell>
+                        <TableCell className="">
                         <Popover>
                                 <PopoverTrigger>
                             <img src="/logbook/12.png" alt="" srcset="" className="rounded-sm" />

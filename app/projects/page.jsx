@@ -38,12 +38,12 @@ const data = [
 
 const Projects = () => {
     return (
-        <section className=" mb-12 xl:mb-36">
+        <section className="">
         <div className="container mx-auto">
             <div className="flex justify-between gap-x-8">
                 {/* text */}
                 <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 
-                text-center xl:text-left">
+                text-center xl:text-left pb-5 pt-10">
                     <div className="section-title mb-10 pb-10">Hasil Luaran PjBL </div>            
                   </div>
             </div>
@@ -52,7 +52,7 @@ const Projects = () => {
             {data.map((item, index) => {
                 return (
 
-                    <Card className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative' key={index}>
+                    <Card className='w-full xl:max-w-[424px]  h-[350px] flex flex-col pt-16 pb-10 justify-center items-center ' key={index}>
                     <CardHeader className='text-primary relative -top-[60px]' >
                         <div className='w-[140px] h-[80px]  flex justify-center items-center  '>
                             {item.icon}
