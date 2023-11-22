@@ -10,7 +10,6 @@ const variants = {
 };
 
 const Template = ({children}) => {
-    const completion= useScrollProgress();
     return (
         <>
 

@@ -38,14 +38,14 @@ const Middle = () => {
                             {/* <TabsTrigger value='manfaat'>Manfaat</TabsTrigger> */}
                             <TabsTrigger value='pelaksanaan'>Pelaksanaan</TabsTrigger>
                         </TabsList>
-                        <div className="text-lg mt-24 xl:mt-8">
+                        <div className="text-lg mt-12 xl:mt-8">
                             <TabsContent value='pengertian'>
-                                <h4 className="mb-8 text-left text-sm xl:text-left font-semibold">
+                                <h4 className="mb-8 text-justify text-sm xl:text-justify font-semibold indent-10">
                                 Taman Mini "Indonesia Indah" (TMII) merupakan salah satu destinasi wisata yang berbasis wisata edukasi dan budaya. TMII hadir sebagai rangkuman 33 provinsi bangsa Indonesia dalam bentuk miniatur kepulauan nusantara lengkap dengan anjungan daerah, bangunan dan arsitektur tradisional, kesenian daerah, taman rekreasi, dan berbagai macam wahana yang menawarkan sarana seni, rekreasi, dan edukasi bagi wisatawan.
                                 </h4>  
                             </TabsContent>
                             <TabsContent value='tujuan'>
-                            <h4 className="mb-8 text-left text-sm font-semibold">
+                            <h4 className="mb-8 text-justify text-sm font-semibold indent-10">
                             Di pertengahan
 Oktober tahun 2022 TMII memiliki wajah baru yang
 mengusung konsep green, smart, culture, dan
@@ -77,7 +77,7 @@ dinikmati wisatawan di TMII secara inklusif.
                                 </h4> 
                             </TabsContent> */}
                             <TabsContent value='pelaksanaan'>
-                            <h4 className="mb-8 text-left text-sm font-semibold">
+                            <h4 className="mb-8 text-justify indent-10 text-sm font-semibold">
                             Pada pengamatan ini kami menggunakan
 metode penelitian kualitatif deskriptif, yang dimana
 akan berisi data untuk memberikan gambaran
