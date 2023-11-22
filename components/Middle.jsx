@@ -32,7 +32,7 @@ const Middle = () => {
                 </div>
                 <div className="flex-1  ">
                     <Tabs defaultValue="pengertian" className="">
-                        <TabsList className='w-full grid xl:grid-cols-3 xl:max-w[520px] xl:border dark:border-none mb-10'>
+                        <TabsList className='w-full grid grid-cols-3 xl:max-w[520px] xl:border dark:border-none mb-10'>
                             <TabsTrigger value='pengertian'>Pengertian</TabsTrigger>
                             <TabsTrigger value='tujuan'>Tujuan</TabsTrigger>
                             {/* <TabsTrigger value='manfaat'>Manfaat</TabsTrigger> */}
