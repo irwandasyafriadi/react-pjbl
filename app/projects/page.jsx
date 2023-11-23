@@ -17,7 +17,7 @@ const data = [
         title : 'Artikel',
         description : 
         'Artikel yang telah dibuat',
-        link : '',
+        link : 'https://drive.google.com/drive/folders/1aYfDZnb56L1KWPxD4vkTqS5OMsaOdDGc',
     },
     {
         icon : <Video size={72} strokeWidth={0.8}/>,

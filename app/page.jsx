@@ -4,6 +4,7 @@ import Middle from '@/components/Middle'
 import Pertanyaan from '@/components/Pertanyaan'
 import Tim from '@/components/Tim'
 import Wawancara from '@/components/Wawancara'
+import Charts from '@/components/charts'
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
     <Hero/>
     <Middle/>
     < Wawancara/>
-    <Pertanyaan/>
+    {/* <Pertanyaan/> */}
+    <Charts/>
     <Tim/>
    </main>
   )
